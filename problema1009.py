@@ -1,0 +1,5 @@
+nome = str(input())
+salario = float(input())
+venda = float(input())
+salariofinal = salario + (venda * 0.15)
+print('TOTAL = R$ {:.2f}'.format(salariofinal))
